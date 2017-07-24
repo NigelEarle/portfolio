@@ -1,2 +1,2 @@
-# nigelearle.github.io
-Nigel Earle portfolio
+
+# Nigel Earle portfolio
