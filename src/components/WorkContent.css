@@ -1,0 +1,19 @@
+.content {
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+}
+
+.workList {
+}
+
+.slideContainer {
+}
+
+.item {
+}
+
+.item > img {
+  min-width: 100%;
+  height: 100%;
+}
