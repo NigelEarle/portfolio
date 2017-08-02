@@ -1,5 +1,5 @@
 import React from 'react';
-import WorkContent from './components/WorkContent';
+import { WorkContent } from './components';
 import './App.css';
 
 const App = () => (

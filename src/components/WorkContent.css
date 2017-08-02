@@ -14,6 +14,7 @@
   width: 45px;
   background-color: grey;
   z-index: 1;
+  border-radius: 2px;
 }
 
 .slick-prev:before {
@@ -25,7 +26,7 @@
 }
 
 .slick-arrow:hover {
-  background-color: black;
+  background-color: lightgrey;
 }
 
 .item {
