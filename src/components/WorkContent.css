@@ -10,10 +10,10 @@
   padding: 20px;
 }
 .slick-arrow {
-  height: 50px;
-  width: 50px;
-  background-color: red;
-  /*z-index: 1;*/
+  height: 45px;
+  width: 45px;
+  background-color: grey;
+  z-index: 1;
 }
 
 .slick-prev:before {
