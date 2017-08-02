@@ -5,6 +5,10 @@ import './WorkContent.css';
 
 const settings = {
   dots: true,
+  arrows: true,
+  infinite: true,
+  slidesToShow: 1,
+  // centerMode: true,
 }
 
 const WorkContent = () => (

@@ -1,15 +1,31 @@
 .content {
   width: 100%;
+  padding-top: 8%;
   background-color: white;
 }
 
 .workList {
   margin: auto;
-  width: 80%;
+  width: 65%;
   padding: 20px;
 }
+.slick-arrow {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  /*z-index: 1;*/
+}
 
-.slideContainer {
+.slick-prev:before {
+  content: url('./../assets/icons/back.svg');
+}
+
+.slick-next:before {
+  content: url('./../assets/icons/next.svg');;
+}
+
+.slick-arrow:hover {
+  background-color: black;
 }
 
 .item {

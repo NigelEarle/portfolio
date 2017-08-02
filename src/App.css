@@ -44,3 +44,9 @@
   margin-top: 60px;
   font-size: 1.2em;
 }
+
+.description > p {
+  line-height: 1.3;
+  letter-spacing: .02em;
+}
+
