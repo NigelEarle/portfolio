@@ -1,0 +1,10 @@
+export { default as CULTUR_1 } from './cultur-1.png';
+export { default as CULTUR_2 } from './cultur-2.png';
+export { default as BLUEPLANET_1 } from './blueplanet-1.png';
+export { default as BLUEPLANET_2 } from './blueplanet-2.png';
+export { default as BLUEPLANET_3 } from './blueplanet-3.png';
+export { default as BLUEPLANET_4 } from './blueplanet-4.png';
+export { default as BLUEPLANET_5 } from './blueplanet-5.png';
+export { default as BLUEPLANET_6 } from './blueplanet-6.png';
+export { default as BLUEPLANET_7 } from './blueplanet-7.png';
+export { default as BLUEPLANET_8 } from './blueplanet-8.png';
