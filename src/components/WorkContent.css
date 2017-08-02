@@ -1,10 +1,12 @@
 .content {
-  margin: auto;
-  width: 80%;
-  padding: 20px;
+  width: 100%;
+  background-color: white;
 }
 
 .workList {
+  margin: auto;
+  width: 80%;
+  padding: 20px;
 }
 
 .slideContainer {

@@ -1,25 +1,26 @@
 .container {
   max-width: 100%;
   height: 100%;
-  padding: 5% 0;
-  color: #808099;
+  padding-top: 40px;
+  background-color: #F0F7F7;
+  color: #616161;
 }
 
 .heading {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 80px;
+  height: 590px;
+  /*margin-bottom: 30px;*/
 }
 
 .name {
   line-height: 1.5;
   font-size: 3.75em;
-  color: #8dc6c1;
+  color: #1A237E;
 }
 
 .role {
-  color: #808099;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   font-size: 1em;
