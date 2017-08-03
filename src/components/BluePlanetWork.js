@@ -29,7 +29,6 @@ export default class BluePlanetWork extends Component {
           <div className="item"><img src={BLUEPLANET_6} alt="work"/></div>
           <div className="item"><img src={BLUEPLANET_7} alt="work"/></div>
           <div className="item"><img src={BLUEPLANET_8} alt="work"/></div>
-          
         </Slider>
         <p>cultur guru</p>
       </li>
