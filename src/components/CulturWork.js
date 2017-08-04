@@ -18,13 +18,14 @@ export default class CulturWork extends Component {
           <div className="item"><img src={CULTUR_1} alt="work"/></div>
           <div className="item"><img src={CULTUR_2} alt="work"/></div>
         </Slider>
+        <h1>Cultur</h1>
         <div className="experience">
           <p>
             The Cultur Guru API was my first full-scale project I had the pleasure of working
             on for a little over 10 months. The API, written in Ruby on Rails, was responsible
             for scraping event data across 25+ different sources. The API had already been 
-            built out to an extent. Our back end team was responsible for developing new 
-            server infrastructure - focusing on load balancing and back end processes, building
+            built out to an extent before our team jumped on. Our back end team was responsible for developing a new 
+            server infrastructure and deployment strategy - focusing on load balancing and back end processes, building
             additional features and squashing an existing bugs. Operating on a remote team of 7+
             people gave me the experience and wisdom of working in teams through pair programming
             and meeting tough deadlines.
