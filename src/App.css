@@ -50,3 +50,13 @@
   letter-spacing: .02em;
 }
 
+@media (max-width: 740px) {
+  .heading {
+    padding: 4%;
+  }
+
+  .description {
+    width: 100%;
+  }
+}
+
