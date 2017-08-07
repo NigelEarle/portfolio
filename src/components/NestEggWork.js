@@ -20,17 +20,16 @@ export default class NestEggWork extends Component {
             written in JavaScript using Node.js/Express.js, Gulp, Stripe, jQuery and PostgreSQL. I 
             reported to the project manager and two in-house developers that had previously worked on 
             this project. The key feature of this application would calculate your retirement needs 
-            based on earnings and savings and usage was on a subscription basis using the Stripe API.
+            based on earnings and savings. Payment for this service was on a subscription basis, which was handled using the Stripe API.
           </p>
           <br/>
           <p>
             My responsibilities were to build out a new feature utilizing the Stripe API’s
             coupons feature. Coupons were administered by the business owner or other admin
-            users, and ultimately applying that coupon discount to a new or existing subscription.
+            users, which could then be applied to a new or existing subscription.
             The scope of this particular feature spanned across the front and back end of the application
-            which forced me to know what modules and sections I was working with in depth, as well
-            as the Stripe API. Working with a particular spec by the in-house designer gave me
-            the correct plan of action to complete this feature.
+            forcing me to know and understand what tools and modules I was working with in depth. Working with a particular design spec, given to me
+            by the in-house designer, allowed me to devise a correct plan of action to complete this feature.
           </p>
         </div>
       </li>
