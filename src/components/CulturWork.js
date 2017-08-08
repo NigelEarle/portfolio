@@ -25,14 +25,17 @@ export default class CulturWork extends Component {
             The Cultur Guru API was my first full-scale project I had the pleasure of working
             on for a little over 10 months. The API, written in Ruby on Rails, was responsible
             for scraping event data across 25+ different sources. The API had already been 
-            built out to an extent by a previous devlopment team before our back-end team jumped on. We were
-            responsible for developing a new server infrastructure and deployment strategy - focused on load
-            balancing and back end processes, building additional features and squashing an existing bugs.
-            Operating on a remote team of 7+ people gave me the initial experience and wisdom of working in
-            teams through pair programming and meeting tough deadlines.
+            built out to an extent by a previous devlopment team before our back-end team jumped on.
           </p>
           { showMore && 
             <div>
+              <br/>
+              <p>
+                Our back-end team was responsible for developing a new server infrastructure and deployment strategy - focused on load
+                balancing and back end processes, building additional features and squashing an existing bugs.
+                Operating on a remote team of 7+ people gave me the initial experience and wisdom of working in
+                teams through pair programming and meeting tough deadlines.
+              </p>
               <br/>
               <p>
                 My main responsibilities for this position were building and configuring the server
