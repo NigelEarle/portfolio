@@ -42,7 +42,7 @@
 }
 
 .description {
-  width: 50%;
+  max-width: 660px;
   margin-top: 60px;
   font-size: 1.2em;
   color: #F0F7F7;
