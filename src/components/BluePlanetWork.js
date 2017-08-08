@@ -43,7 +43,7 @@ export default class BluePlanetWork extends Component {
             Working on the component library gave me the mindset of thinking about how a
             developer should be using and interacting with the tools and libraries available.
             We built out this dynamic component library to cut down on code redundancy throughout
-            the front end portals, given that a lot of the same components would be used throughout.
+            the front end portals, given that a lot of the same React components would be used throughout.
             Some of the dynamic UI components we developed were tables, search inputs, radio buttons,
             inputs (with validation), drop-downs, buttons, lists and list-items. Pairing with two
             other very experienced in-house developers on this project allowed us to streamline our
@@ -52,7 +52,7 @@ export default class BluePlanetWork extends Component {
           <br/>
           <p>
             One of the larger tasks I was assigned to was the Manage Billing pages for the
-            project owner front-end portal. This section of the project owner portal was
+            project owner, front-end portal. This section of the project owner portal was
             responsible for setting up billing specifications for homeowners - i.e. billing cycles
             and plans, flat rate fees, additional fees and taxes, kilowatt-hour usage tiers. Using
             Redux as a global state manager for these components and pages made huge difference while
