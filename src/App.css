@@ -1,22 +1,22 @@
 .container {
   max-width: 100%;
   height: 100%;
-  padding-top: 40px;
-  background-color: #F0F7F7;
-  color: #616161;
+  padding-top: 80px;
+  background-color: #2B3240;
+  color: #000032;
 }
 
 .heading {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 590px;
+  height: 637px;
 }
 
 .name {
   line-height: 1.5;
   font-size: 3.75em;
-  color: #1A237E;
+  color: beige;
 }
 
 .role {
@@ -24,7 +24,8 @@
   margin-bottom: 10px;
   font-size: 1em;
   font-style: italic;
-  opacity: .7;
+  color: #F0F7F7;
+  opacity: .9;
 }
 
 .heading > hr {
@@ -37,17 +38,19 @@
 .title {
   letter-spacing: 1px;
   font-size: 1.05em;
+  color: #F0F7F7;
 }
 
 .description {
   width: 50%;
   margin-top: 60px;
   font-size: 1.2em;
+  color: #F0F7F7;
 }
 
 .description > p {
-  line-height: 1.3;
-  letter-spacing: .02em;
+  line-height: 1.4;
+  letter-spacing: .04em;
 }
 
 @media (max-width: 740px) {
