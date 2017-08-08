@@ -12,6 +12,7 @@ export default class CulturWork extends Component {
   state = { showMore: false };
 
   render() {
+    const { showMore } = this.state;
     return (
       <li className="listItem">
         <Slider {...this.props.settings}>
@@ -30,17 +31,29 @@ export default class CulturWork extends Component {
             Operating on a remote team of 7+ people gave me the initial experience and wisdom of working in
             teams through pair programming and meeting tough deadlines.
           </p>
-          <br/>
-          <p>
-            My main responsibilities for this position were building and configuring the server
-            infrastructure across several different environments and micro-service workers, as
-            well as adding and debugging existing features. Under the supervision of my senior
-            engineer, we were able deploy to these environments and workers with ease using Digital
-            Ocean, Docker, Puma and Ansible. An issue our deployment strategy solved was optimizing
-            image processing of 700,000+ images. We figured that instead of scaling vertically by
-            giving the existing workers more memory and ram, we could scale them horizontally by
-            creating more servers with a minimum amount of memory and ran. This ended up costing the
-            administrators and owners less with the most optimal processing power.
+          { showMore && 
+            <div>
+              <br/>
+              <p>
+                My main responsibilities for this position were building and configuring the server
+                infrastructure across several different environments and micro-service workers, as
+                well as adding and debugging existing features. Under the supervision of my senior
+                engineer, we were able deploy to these environments and workers with ease using Digital
+                Ocean, Docker, Puma and Ansible. An issue our deployment strategy solved was optimizing
+                image processing of 700,000+ images. We figured that instead of scaling vertically by
+                giving the existing workers more memory and ram, we could scale them horizontally by
+                creating more servers with a minimum amount of memory and ran. This ended up costing the
+                administrators and owners less with the most optimal processing power.
+              </p>
+            </div>
+          }
+          <p
+            className="showMore"
+            onClick={
+              () => this.setState({ showMore: !showMore})
+            }
+          >
+          {!showMore ? 'Show more...' : 'Show less...'}
           </p>
         </div>
       </li>
