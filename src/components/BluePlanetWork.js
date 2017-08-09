@@ -8,7 +8,6 @@ import {
   BLUEPLANET_4,
   BLUEPLANET_5,
   BLUEPLANET_6,
-  BLUEPLANET_7,
 } from '../assets/images';
 
 import './BluePlanetWork.css';
@@ -27,7 +26,6 @@ export default class BluePlanetWork extends Component {
           <div className="item"><img src={BLUEPLANET_4} alt="work"/></div>
           <div className="item"><img src={BLUEPLANET_5} alt="work"/></div>
           <div className="item"><img src={BLUEPLANET_6} alt="work"/></div>
-          <div className="item"><img src={BLUEPLANET_7} alt="work"/></div>
         </Slider>
         <div className="workHeading">
           <h1 className="contract">Blue Planet Energy</h1>
