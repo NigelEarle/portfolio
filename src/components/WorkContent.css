@@ -9,35 +9,6 @@
   padding: 20px;
 }
 
-.slick-slider {
-  margin-bottom: 5%;
-}
-
-.slick-list {
-  border: 1px solid lightgrey;
-  border-radius: 2px;
-}
-
-.slick-arrow {
-  height: 35px;
-  width: 35px;
-  background-color: #2B3240;
-  z-index: 1;
-  border-radius: 2px;
-}
-
-.slick-prev:before {
-  content: url('./../assets/icons/back.svg');
-}
-
-.slick-next:before {
-  content: url('./../assets/icons/next.svg');;
-}
-
-.slick-arrow:hover {
-  background-color: lightgrey;
-}
-
 .workList > hr {
   width: 85%;
   border-top: 1px solid #808099;

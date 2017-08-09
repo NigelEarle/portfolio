@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import Slider from 'react-slick';
 
-import {
-  CULTUR_1,
-  CULTUR_2,
-} from '../assets/images';
+import { CULTUR_1 } from '../assets/images';
 
 import './CulturWork.css';
 
@@ -15,11 +11,8 @@ export default class CulturWork extends Component {
     const { showMore } = this.state;
     return (
       <li className="listItem">
-        <Slider {...this.props.settings}>
-          <div className="item"><img src={CULTUR_1} alt="work"/></div>
-          <div className="item"><img src={CULTUR_2} alt="work"/></div>
-        </Slider>
         <div className="workHeading">
+          <img src={CULTUR_1} className="singleImage" alt="work"/>
           <h1 title="contract">Cultur Guru API</h1>
           <p className="company">Goma Games - 2015</p>
         </div>

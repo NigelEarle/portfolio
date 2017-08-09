@@ -19,15 +19,8 @@ export default class BluePlanetWork extends Component {
     const { showMore } = this.state;
     return (
       <li className="listItem">
-        <Slider {...this.props.settings}>
-          <div className="item"><img src={BLUEPLANET_1} alt="work"/></div>
-          <div className="item"><img src={BLUEPLANET_2} alt="work"/></div>
-          <div className="item"><img src={BLUEPLANET_3} alt="work"/></div>
-          <div className="item"><img src={BLUEPLANET_4} alt="work"/></div>
-          <div className="item"><img src={BLUEPLANET_5} alt="work"/></div>
-          <div className="item"><img src={BLUEPLANET_6} alt="work"/></div>
-        </Slider>
         <div className="workHeading">
+          <img src={BLUEPLANET_2} className="singleImage" alt="work"/>
           <h1 className="contract">Blue Planet Energy</h1>
           <p className="company">Sudokrew Solutions - 2016</p>
         </div>
