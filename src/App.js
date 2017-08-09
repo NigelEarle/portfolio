@@ -1,5 +1,5 @@
 import React from 'react';
-import { WorkContent } from './components';
+import { WorkContent, Footer } from './components';
 import './App.css';
 
 const App = () => (
@@ -23,6 +23,7 @@ const App = () => (
       </div>
     </div>
     <WorkContent />
+    <Footer />
   </div>
 );
 

@@ -4,7 +4,7 @@
 }
 
 .workList {
-  margin: auto;
+  margin: auto auto 8%;
   max-width: 830px;
   padding: 20px;
 }

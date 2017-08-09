@@ -3,3 +3,4 @@ export { default as CulturWork } from './CulturWork';
 export { default as RevolusunWork } from './RevolusunWork';
 export { default as NestEggWork } from './NestEggWork';
 export { default as BluePlanetWork } from './BluePlanetWork';
+export { default as Footer} from './Footer';
