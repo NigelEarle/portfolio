@@ -39,10 +39,10 @@
 }
 
 .workList > hr {
-  width: 90%;
+  width: 85%;
   margin-top: 45px;
-  margin-bottom: 75px;
-  border-top: 1px solid #2B3240;
+  margin-bottom: 80px;
+  border-top: 1px solid #808099;
   border-bottom: 0;
   opacity: .5;
 }

@@ -7,6 +7,5 @@ export { default as BLUEPLANET_4 } from './blueplanet-4.png';
 export { default as BLUEPLANET_5 } from './blueplanet-5.png';
 export { default as BLUEPLANET_6 } from './blueplanet-6.png';
 export { default as BLUEPLANET_7 } from './blueplanet-7.png';
-export { default as BLUEPLANET_8 } from './blueplanet-8.png';
 export { default as NEST_EGG } from './NEG.png';
 export { default as REV } from './REV.jpg';
