@@ -31,7 +31,10 @@ export default class BluePlanetWork extends Component {
           <div className="item"><img src={BLUEPLANET_7} alt="work"/></div>
           <div className="item"><img src={BLUEPLANET_8} alt="work"/></div>
         </Slider>
-        <h1 className="coTitle">Blue Planet Energy</h1>
+        <div className="workHeading">
+          <h1 className="contract">Blue Planet Energy</h1>
+          <p className="company">Sudokrew Solutions - 2016</p>
+        </div>
         <div className="experience">
           <p className="experienceDesc">
             Some of my responsibilities for this project were developing dynamic React

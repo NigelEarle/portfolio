@@ -9,7 +9,10 @@ export default class RevolusunWork extends Component {
     return (
       <li className="listItem">
         <img src="#" alt="#"/>
-        <h1 className="coTitle">Revolusun</h1>
+        <div className="workHeading">
+          <h1 className="contract">Revolusun</h1>
+          <p className="company">Sudokrew Solutions - 2016</p>
+        </div>
         <div className="experience">
           <p className="experienceDesc">
             This was my second subcontract with Sudokrew Solutions and initial introduction to React.js!

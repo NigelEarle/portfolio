@@ -1,6 +1,7 @@
-.item {
+.showMore {
+  text-decoration: underline;
 }
 
-.item > img {
-  height: 450px;
+.showMore:hover {
+  color: #098AF2;
 }

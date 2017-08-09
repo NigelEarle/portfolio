@@ -19,10 +19,10 @@ const settings = {
 const WorkContent = () => (
   <div className="content">
     <ul className="workList">
-      <CulturWork settings={settings} />
-      <NestEggWork settings={settings} />
+      <BluePlanetWork settings={settings} />
       <RevolusunWork settings={settings} />
-      <BluePlanetWork settings={settings}/>
+      <NestEggWork settings={settings} />
+      <CulturWork settings={settings} />
     </ul>
   </div>
 );

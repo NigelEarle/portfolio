@@ -10,7 +10,10 @@ export default class NestEggWork extends Component {
     return (
       <li className="listItem">
         <img src="#" alt="#"/>
-        <h1 className="coTitle">Nest Egg</h1>
+        <div className="workHeading">
+          <h1 className="contract">Nest Egg</h1>
+          <p className="company">Sudokrew Solutions - 2015</p>
+        </div>
         <div className="experience">
           <p className="experienceDesc">
             I was very excited to jump on to this project as a subcontractor for Sudokrew

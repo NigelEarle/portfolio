@@ -19,7 +19,10 @@ export default class CulturWork extends Component {
           <div className="item"><img src={CULTUR_1} alt="work"/></div>
           <div className="item"><img src={CULTUR_2} alt="work"/></div>
         </Slider>
-        <h1 title="coTitle">Cultur Guru (RESTful API)</h1>
+        <div className="workHeading">
+          <h1 title="contract">Cultur Guru API</h1>
+          <p className="company">Goma Games - 2015</p>
+        </div>
         <div className="experience">
           <p className="experienceDesc">
             The Cultur Guru API was my first full-scale project I had the pleasure of working
