@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import { CULTUR_1 } from '../assets/images';
 
-import './CulturWork.css';
 
 export default class CulturWork extends Component {
   state = { showMore: false };

@@ -2,13 +2,9 @@ import React, { Component } from 'react';
 
 import { REV } from '../assets/images';
 
-import './RevolusunWork.css';
-
 export default class RevolusunWork extends Component {
-  state = { showMore: false };
 
   render() {
-    const { showMore } = this.state;
     return (
       <li className="listItem">
         <img src={REV} className="singleImage" alt="rev"/>

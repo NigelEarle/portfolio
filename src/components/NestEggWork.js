@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import { NEST_EGG } from '../assets/images';
 
-import './NestEggWork.css';
-
 export default class NestEggWork extends Component {
   state = { showMore: false };
   
