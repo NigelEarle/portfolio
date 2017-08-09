@@ -40,8 +40,6 @@
 
 .workList > hr {
   width: 85%;
-  margin-top: 45px;
-  margin-bottom: 80px;
   border-top: 1px solid #808099;
   border-bottom: 0;
   opacity: .5;
@@ -52,13 +50,27 @@
   height: 450px;
 }
 
+.listItem {
+  background-color: #F3F3F3;
+  padding: 8%;
+  margin: 10% 0;
+}
+
+.listItem:first-child {
+  margin-top: 0;
+}
+
+.listItem:last-child {
+  margin-bottom: 0;
+}
+
 .workHeading {
   margin-bottom: 18px;
 }
 
 .singleImage {
   height: auto;
-  width: 850px;
+  width: 100%;
   margin-bottom: 3%;
   border: 1px solid lightgray;
   border-radius: 2px;

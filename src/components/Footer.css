@@ -1,7 +1,7 @@
 .footContainer {
   height: 120px;
   width: 100%;
-  background-color: #F3F3F3;
+  background-color: #DDDDDD;
 }
 
 .linksList {
@@ -19,6 +19,7 @@
 
 .link > a {
   text-decoration: underline;
+  color: #2B3240;
 }
 
 .link > a:hover {
