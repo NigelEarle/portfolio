@@ -13,6 +13,11 @@
   margin-bottom: 5%;
 }
 
+.slick-list {
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+}
+
 .slick-arrow {
   height: 35px;
   width: 35px;
@@ -42,8 +47,6 @@
   opacity: .5;
 }
 
-
-
 .item > img {
   min-width: 100%;
   height: 450px;
@@ -51,6 +54,14 @@
 
 .workHeading {
   margin-bottom: 18px;
+}
+
+.singleImage {
+  height: auto;
+  width: 850px;
+  margin-bottom: 3%;
+  border: 1px solid lightgray;
+  border-radius: 2px;
 }
 
 .contract {

@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+
+import { NEST_EGG } from '../assets/images';
+
 import './NestEggWork.css';
 
 export default class NestEggWork extends Component {
@@ -9,7 +12,7 @@ export default class NestEggWork extends Component {
     const { showMore } = this.state;
     return (
       <li className="listItem">
-        <img src="#" alt="#"/>
+        <img src={NEST_EGG} className="singleImage" alt="nest-egg-guru"/>
         <div className="workHeading">
           <h1 className="contract">Nest Egg</h1>
           <p className="company">Sudokrew Solutions - 2015</p>

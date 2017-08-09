@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+
+import { REV } from '../assets/images';
+
 import './RevolusunWork.css';
 
 export default class RevolusunWork extends Component {
@@ -8,7 +11,7 @@ export default class RevolusunWork extends Component {
     const { showMore } = this.state;
     return (
       <li className="listItem">
-        <img src="#" alt="#"/>
+        <img src={REV} className="singleImage" alt="rev"/>
         <div className="workHeading">
           <h1 className="contract">Revolusun</h1>
           <p className="company">Sudokrew Solutions - 2016</p>

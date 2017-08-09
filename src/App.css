@@ -10,8 +10,8 @@
   flex-direction: column;
   align-items: center;
   background-color: #2B3240;
-  height: 597px;
-  padding-top: 80px;
+  height: 620px;
+  padding-top: 5%;
   box-shadow:0 20px 26px rgba(0,0,0,0.2), 0 13px 11px rgba(0,0,0,0.2);
 
 }
@@ -48,7 +48,7 @@
 .description {
   max-width: 660px;
   margin-top: 60px;
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #F0F7F7;
 }
 
