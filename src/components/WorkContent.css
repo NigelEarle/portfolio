@@ -53,7 +53,18 @@
   opacity: 0.7;
 }
 
+.experience {
+  display: flex;
+  flex-direction: column;
+}
+
+.experienceDesc {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
 .showMore {
+  align-self: flex-end;
   text-decoration: underline;
 }
 
