@@ -31,9 +31,9 @@ export default class BluePlanetWork extends Component {
           <div className="item"><img src={BLUEPLANET_7} alt="work"/></div>
           <div className="item"><img src={BLUEPLANET_8} alt="work"/></div>
         </Slider>
-        <h1>Blue Planet Energy</h1>
-        <div>
-          <p>
+        <h1 className="coTitle">Blue Planet Energy</h1>
+        <div className="experience">
+          <p className="experienceDesc">
             Some of my responsibilities for this project were developing dynamic React
             components for the component library (to be used across several different
             front-end portals), styling of React components using CSS-Modules and developing
@@ -42,7 +42,7 @@ export default class BluePlanetWork extends Component {
           { showMore &&
             <div>
               <br/>
-              <p>
+              <p className="experienceDesc">
                 Working on the component library gave me the mindset of thinking about how a
                 developer should be using and interacting with the tools and libraries available.
                 We built out this dynamic component library to cut down on code redundancy throughout
@@ -53,7 +53,7 @@ export default class BluePlanetWork extends Component {
                 development process and start using these dynamic components in production relatively quickly.
               </p>
               <br/>
-              <p>
+              <p className="experienceDesc">
                 One of the larger tasks I was assigned to was the Manage Billing pages for the
                 project owner, front-end portal. This section of the project owner portal was
                 responsible for setting up billing specifications for homeowners - i.e. billing cycles

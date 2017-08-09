@@ -19,7 +19,6 @@ const App = () => (
         <p>
           Building clean, stable and performant software is as important to me as the people I am building it with!
           Currently, I am looking to be apart of a development team that shares same passion JavaScript web technologies that I do! 
-          {/* Contribute my skills / */} 
         </p>
       </div>
     </div>

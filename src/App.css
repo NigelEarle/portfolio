@@ -1,16 +1,19 @@
 .container {
   max-width: 100%;
   height: 100%;
-  padding-top: 80px;
-  background-color: #2B3240;
   color: #000032;
+  background-color: white
 }
 
 .heading {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 637px;
+  background-color: #2B3240;
+  height: 597px;
+  padding-top: 80px;
+  box-shadow:0 20px 26px rgba(0,0,0,0.2), 0 13px 11px rgba(0,0,0,0.2);
+
 }
 
 .name {
@@ -33,6 +36,7 @@
   border-bottom: 0;
   width: 270px;
   margin-bottom: 15px;
+
 }
 
 .title {

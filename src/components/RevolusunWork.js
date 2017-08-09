@@ -8,12 +8,10 @@ export default class RevolusunWork extends Component {
     const { showMore } = this.state;
     return (
       <li className="listItem">
-        <div>
-          <img src="#" alt="#"/>
-          <h1>Revolusun</h1>
-        </div>
-        <div>
-          <p>
+        <img src="#" alt="#"/>
+        <h1 className="coTitle">Revolusun</h1>
+        <div className="experience">
+          <p className="experienceDesc">
             This was my second subcontract with Sudokrew Solutions and initial introduction to React.js!
             At the time, I was a little nervous being thrown in with a larger application not knowing React.
             Thankfully, the in-house developers taught me everything I needed to know to complete the given
@@ -21,16 +19,15 @@ export default class RevolusunWork extends Component {
           </p>
           {showMore && 
             <div>
-              
               <br/>
-              <p>
+              <p className="experienceDesc">
                 The application was completely internal to Revolusun's project managers - organizing and calculating
                 costs based on the work that needs to be done at a residential home or space. After the estimate
                 had been calculated by dynamic inputs, the application would deliver a dynamically generated PDF document for the
                 homeowner to view.
               </p>
               <br/>
-              <p>
+              <p className="experienceDesc">
                 One of my tasks for this project was to build out a standalone server (written in Node.js),
                 which would generate several PDF documents with dynamic content based on user input. After doing some research on
                 possible libraries with supported communities, I came across PDFKit. A JavaScript plugin to
@@ -42,7 +39,7 @@ export default class RevolusunWork extends Component {
                 show a demo of the completed features, the client loved the work that had been done by the team.
               </p>
               <br/>
-              <p>
+              <p className="experienceDesc">
                 A sparate task I was assigned to was multiple image uploads for project owners using React.js and
                 Amazon S3. Learning the architecture of parent/child component hierarchy and unidirectional data flow
                 helped me solidify my overall understanding of React. After uploading images from a user/client, image

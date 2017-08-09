@@ -1,7 +1,6 @@
 .content {
   width: 100%;
   padding-top: 8%;
-  background-color: white;
 }
 
 .workList {
@@ -10,9 +9,9 @@
   padding: 20px;
 }
 .slick-arrow {
-  height: 45px;
-  width: 45px;
-  background-color: grey;
+  height: 35px;
+  width: 35px;
+  background-color: #2B3240;
   z-index: 1;
   border-radius: 2px;
 }
