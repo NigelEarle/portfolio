@@ -13,17 +13,16 @@ const NestEggWork = () => (
       <p className="experienceDesc">
         I was very excited to jump on to this project as a subcontractor for Sudokrew
         Solutions. They are an amazing JavaScript development house and I knew that I would 
-        learn a lot from their codebase. The key feature of this application would calculate your retirement needs 
-        based on earnings and savings. Payment for this service was on a subscription basis, which was handled using the Stripe API.
+        learn a lot from their codebase.
       </p>
       <br/>
-      <h2 className="contributions">Contributions:</h2>
+      <h2 className="contributions">Overview / Contributions:</h2>
       <br/>
       <ul className="experienceList">
         <li>
           <p className="experienceDesc">
-            Built with <code>Express.js</code>, <code>Gulp</code>, 
-            <code>Stripe</code>, <code>jQuery</code> and <code>PostgreSQL</code>.
+            Customer facing wed application to calculate your retirement needs based on earnings and savings.
+            Payment for this service was on a subscription basis, which was handled using the Stripe API.
           </p>
         </li>
         <br/>

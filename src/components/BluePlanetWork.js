@@ -16,7 +16,7 @@ const BluePlanetWork = () => (
         on a RESTful API built with <code>Node.js</code> and <code>Strongloop</code>.
       </p>
       <br/>
-      <h2 className="contributions">Contributions:</h2>
+      <h2 className="contributions">Overview / Contributions:</h2>
       <br/>
       <ul className="experienceList">
         <li>

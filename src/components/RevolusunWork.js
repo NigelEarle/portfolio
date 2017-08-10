@@ -17,7 +17,7 @@ const RevolusunWork = () => (
         tasks.
       </p>
       <br/>
-      <h2 className="contributions">Contributions:</h2>
+      <h2 className="contributions">Overview / Contributions:</h2>
       <br/>
       <ul className="experienceList">
         <li>
