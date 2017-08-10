@@ -10,6 +10,13 @@ const BluePlanetWork = () => (
       <p className="company">Sudokrew Solutions - 2016</p>
     </div>
     <div className="experience">
+      <p className="experienceDesc">
+        Some of my responsibilities for this project were developing dynamic React
+        components for the component library (to be used across several different
+        front-end portals), styling of React components using CSS-Modules and developing
+        the Manage Billing pages for the project owner portal using React.js and Redux.
+      </p>
+      <br/>
       <ul className="experienceList">
         <li>
           <p className="experienceDesc">
@@ -19,12 +26,14 @@ const BluePlanetWork = () => (
             time, given a lot of the same components would be used across the front-end portals.
           </p>
         </li>
+        <br/>
         <li>
           <p className="experienceDesc">
             Styled for in-house developers on various React components using <code>CSS-Modules</code> 
             and <code>Classnames</code> library to free up more time for teammates.
           </p>
         </li>
+        <br/>
         <li>
           <p className="experienceDesc">
             Developed the 'Manage Billing' pages/components for homeowner billing specifications
