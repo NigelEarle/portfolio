@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import { BLUEPLANET_1 } from '../assets/images';
 

@@ -74,9 +74,16 @@ code {
   list-style-type: disc; 
 }
 
-/* Might not need */
-
 .experienceDesc {
   font-size: 1.4em;
-  margin-bottom: 10px;
+}
+
+@media (max-width: 740px) {
+
+  .experienceList {
+    padding-left: 8%;
+  }
+  .experienceDesc {
+    font-size: 1.2em;
+  }
 }
