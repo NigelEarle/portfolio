@@ -17,24 +17,29 @@ const CulturWork = () => (
         built out to an extent by a previous devlopment team before our back-end team jumped on.
       </p>
       <br/>
-      <p className="experienceDesc">
-        Our back-end team was responsible for developing a new server infrastructure and deployment strategy - focused on load
-        balancing and back end processes, building additional features and squashing an existing bugs.
-        Operating on a remote team of 7+ people gave me the initial experience and wisdom of working in
-        teams through pair programming and meeting tough deadlines.
-      </p>
-      <br/>
-      <p className="experienceDesc">
-        My main responsibilities for this position were building and configuring the server
-        infrastructure across several different environments and micro-service workers, as
-        well as adding and debugging existing features. Under the supervision of my senior
-        engineer, we were able deploy to these environments and workers with ease using Digital
-        Ocean, Docker, Puma and Ansible. An issue our deployment strategy solved was optimizing
-        image processing of 700,000+ images. We figured that instead of scaling vertically by
-        giving the existing workers more memory and ram, we could scale them horizontally by
-        creating more servers with a minimum amount of memory and ran. This ended up costing the
-        administrators and owners less with the most optimal processing power.
-      </p>
+      <ul className="experienceList">
+        <li>
+          <p className="experienceDesc">
+            Built and configured the server infrastructure across several different environments 
+            and micro-service workers under the supervision of my senior engineer.
+          </p>
+        </li>
+        <li>
+          <p className="experienceDesc">
+           Streamlined deployment to these server instances using tools and services such 
+           as <code>Digital Ocean</code>, <code>Puma</code>, <code>Docker</code> and <code>Ansible</code>.
+          </p>
+        </li>
+        <li>
+          <p className="experienceDesc">
+            Configured horizontal server and deployment strategy solution for background image processing 
+            of 700,000+ event images to solve failing background workers issue. Our team came up with this horizontal 
+            instance solution by scaling microservice workers out to 60+ small instances instead of adding more CPU and 
+            RAM to existing workers. This solution ended up costing owners and administrators less with optimal 
+            processing power.
+          </p>
+        </li>
+      </ul>
     </div>
   </li>
 );

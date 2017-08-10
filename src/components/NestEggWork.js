@@ -20,7 +20,7 @@ const NestEggWork = () => (
       <ul className="experienceList">
         <li>
           <p className="experienceDesc">
-            Nest Egg web application was built with <code>Express.js</code>, <code>Gulp</code>, 
+            Built with <code>Express.js</code>, <code>Gulp</code>, 
             <code>Stripe</code>, <code>jQuery</code> and <code>PostgreSQL</code>.
           </p>
         </li>
@@ -32,7 +32,7 @@ const NestEggWork = () => (
         </li>
         <li>
           <p className="experienceDesc">
-            Scope of this feature spanned across the front and back end of the application forcing 
+            Overall scope of this feature spanned across the front and back end of the application forcing 
             me to know and understand what tools, libraries and modules I was working with in depth.
           </p>
         </li>
