@@ -24,12 +24,14 @@ const NestEggWork = () => (
             <code>Stripe</code>, <code>jQuery</code> and <code>PostgreSQL</code>.
           </p>
         </li>
+        <br/>
         <li>
           <p className="experienceDesc">
             Built out new feature using the <code>Stripe API</code> coupon feature. Coupons were 
             administered by the business owners or other admin users to new or existing subscriptions.
           </p>
         </li>
+        <br/>
         <li>
           <p className="experienceDesc">
             Overall scope of this feature spanned across the front and back end of the application forcing 

@@ -24,12 +24,14 @@ const CulturWork = () => (
             and micro-service workers under the supervision of my senior engineer.
           </p>
         </li>
+        <br/>
         <li>
           <p className="experienceDesc">
            Streamlined deployment to these server instances using tools and services such 
            as <code>Digital Ocean</code>, <code>Puma</code>, <code>Docker</code> and <code>Ansible</code>.
           </p>
         </li>
+        <br/>
         <li>
           <p className="experienceDesc">
             Configured horizontal server and deployment strategy solution for background image processing 

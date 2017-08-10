@@ -10,6 +10,7 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  padding: 0;
 }
 
 .link {
@@ -24,4 +25,10 @@
 
 .link > a:hover {
   color: #098AF2;
+}
+
+@media (max-width: 740px) {
+  .link > a {
+    font-size: 15px;
+  }
 }
