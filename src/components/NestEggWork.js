@@ -17,6 +17,8 @@ const NestEggWork = () => (
         based on earnings and savings. Payment for this service was on a subscription basis, which was handled using the Stripe API.
       </p>
       <br/>
+      <h2 className="contributions">Contributions:</h2>
+      <br/>
       <ul className="experienceList">
         <li>
           <p className="experienceDesc">

@@ -11,10 +11,12 @@ const BluePlanetWork = () => (
     </div>
     <div className="experience">
       <p className="experienceDesc">
-        This project was one of the larger projects I've worked on with Sudokrew Solutions. It encompassed a series 
-        of front-end portals built with <code>React.js</code>and <code>Redux</code>, accessing endpoints 
+        This project was one of the larger projects I have worked on with Sudokrew Solutions. It encompassed a series 
+        of front-end portals built with <code>React.js</code> and <code>Redux</code>, accessing endpoints 
         on a RESTful API built with <code>Node.js</code> and <code>Strongloop</code>.
       </p>
+      <br/>
+      <h2 className="contributions">Contributions:</h2>
       <br/>
       <ul className="experienceList">
         <li>

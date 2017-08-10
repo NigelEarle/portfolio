@@ -17,6 +17,8 @@ const CulturWork = () => (
         built out to an extent by a previous devlopment team before our back-end team jumped on.
       </p>
       <br/>
+      <h2 className="contributions">Contributions:</h2>
+      <br/>
       <ul className="experienceList">
         <li>
           <p className="experienceDesc">

@@ -65,6 +65,12 @@ code {
   opacity: 0.7;
 }
 
+.contributions {
+  line-height: 1;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
 .experience {
   display: flex;
   flex-direction: column;
@@ -79,6 +85,18 @@ code {
 }
 
 @media (max-width: 740px) {
+
+  .listItem {
+    padding: 5%;
+  }
+
+  code {
+    font-size: 15px;
+  }
+
+  .contributions {
+    font-size: 1.2em
+  }
 
   .experienceList {
     padding-left: 8%;
