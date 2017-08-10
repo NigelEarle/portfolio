@@ -13,6 +13,12 @@
   padding-top: 5%;
 }
 
+.profilePic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
 .name {
   line-height: 1.5;
   font-size: 3.75em;
@@ -44,9 +50,9 @@
 .description {
   max-width: 660px;
   margin-top: 60px;
-  font-size: 1.4em;
+  font-size: 1.3em;
   color: #F0F7F7;
-  margin-bottom: 9.8%;
+  margin-bottom: 6.8%;
 }
 
 .description > p {

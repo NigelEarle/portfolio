@@ -1,10 +1,12 @@
 import React from 'react';
 import { WorkContent, Footer } from './components';
+import { PROFILE } from './assets/images';
 import './App.css';
 
 const App = () => (
   <div className="container">
     <div className="heading">
+      <img src={PROFILE} className="profilePic" alt="profile"/>
       <h1 className="name">Nigel Earle</h1>
       <h3 className="role">Full-Stack Software Developer</h3>
       <hr/>
