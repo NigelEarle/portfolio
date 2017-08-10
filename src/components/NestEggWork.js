@@ -6,7 +6,7 @@ const NestEggWork = () => (
   <li className="listItem">
     <img src={NEST_EGG} className="singleImage" alt="nest-egg-guru"/>
     <div className="workHeading">
-      <h1 className="contract">Nest Egg</h1>
+      <h1 className="contract">Nest Egg Guru</h1>
       <p className="company">Sudokrew Solutions - 2015</p>
     </div>
     <div className="experience">
@@ -17,15 +17,26 @@ const NestEggWork = () => (
         based on earnings and savings. Payment for this service was on a subscription basis, which was handled using the Stripe API.
       </p>
       <br/>
-      <p className="experienceDesc">
-        The Nest Egg Financial Calculator web application was written in JavaScript using Node.js/Express.js, Gulp, Stripe, jQuery and PostgreSQL.
-        My responsibilities were to build out a new feature utilizing the Stripe API’s
-        coupons feature. Coupons were administered by the business owner or other admin
-        users, which could then be applied to a new or existing subscription.
-        The scope of this particular feature spanned across the front and back end of the application
-        forcing me to know and understand what tools and modules I was working with in depth. Working with a particular design spec, given to me
-        by the in-house designer, allowed me to devise a correct plan of action to complete this feature.
-      </p>
+      <ul className="experienceList">
+        <li>
+          <p className="experienceDesc">
+            Nest Egg web application was built with <code>Express.js</code>, <code>Gulp</code>, 
+            <code>Stripe</code>, <code>jQuery</code> and <code>PostgreSQL</code>.
+          </p>
+        </li>
+        <li>
+          <p className="experienceDesc">
+            Built out new feature using the <code>Stripe API</code> coupon feature. Coupons were 
+            administered by the business owners or other admin users to new or existing subscriptions.
+          </p>
+        </li>
+        <li>
+          <p className="experienceDesc">
+            Scope of this feature spanned across the front and back end of the application forcing 
+            me to know and understand what tools, libraries and modules I was working with in depth.
+          </p>
+        </li>
+      </ul>
     </div>
   </li>
 );
