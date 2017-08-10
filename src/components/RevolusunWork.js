@@ -11,9 +11,9 @@ const RevolusunWork = () => (
     </div>
     <div className="experience">
       <p className="experienceDesc">
-        My second subcontract with Sudokrew Solutions and initial introduction to React.js!
-        At the time, I was a little nervous being thrown in with a larger application not knowing React.
-        Thankfully, the in-house developers taught me everything I needed to know to complete the given
+        This project was my second subcontract with Sudokrew Solutions and initial introduction to <code>React.js</code> and <code>Redux</code>.
+        At the time, I was nervous being thrown in with a larger application not having experience with the given technologies.
+        Thankfully, the in-house developers taught me everything I needed to know about the application architecture to complete the given
         tasks.
       </p>
       <br/>
@@ -24,8 +24,8 @@ const RevolusunWork = () => (
           <p className="experienceDesc">
             Completely internal web application to Revolun's project managers team - organizing
             and calculating costs based on the work that needs to be done at a residential 
-            home or space. After submission, the application would calculate by dynamic inputs, deliver 
-            a dynamically generated PDF document for the homeowner.
+            home or space. After submission, the application would recieve homeowner specifications and deliver 
+            a dynamically generated PDF document for the homeowner to view.
           </p>
         </li>
         <br/>
@@ -33,7 +33,7 @@ const RevolusunWork = () => (
           <p className="experienceDesc">
             Built standalone, Node.js streaming server to generate PDF documents based on 
             dynamic inputs. Used <code>PDFKit</code>, JavaScript library to format and 
-            create dynamic PDF's to exact specifications to be served at API endpoints. 
+            create dynamic PDF's to exact specifications being served at API endpoints. 
             Particularly lengthy task, which freed up time of in-house developers, given my 
             contributions.
           </p>

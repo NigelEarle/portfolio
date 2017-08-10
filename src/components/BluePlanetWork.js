@@ -13,7 +13,7 @@ const BluePlanetWork = () => (
       <p className="experienceDesc">
         This project was one of the larger projects I have worked on with Sudokrew Solutions. It encompassed a series 
         of front-end portals built with <code>React.js</code> and <code>Redux</code>, accessing endpoints 
-        on a RESTful API built with <code>Node.js</code> and <code>Strongloop</code>.
+        on a RESTful API built with <code>Node.js</code>, <code>Express.js</code> and <code>Strongloop</code>.
       </p>
       <br/>
       <h2 className="contributions">Overview / Contributions:</h2>
@@ -30,15 +30,15 @@ const BluePlanetWork = () => (
         <br/>
         <li>
           <p className="experienceDesc">
-            Applied styles for various React components using <code>CSS-Modules</code> 
-            and <code>Classnames</code> library to free up more time for teammates to complete tasks on a tight deadline.
+            Applied styles for various React components using <code>CSS-Modules</code> and the <code>Classnames</code> React plugin 
+            to free up more time for teammates to complete tasks on a tight deadline.
           </p>
         </li>
         <br/>
         <li>
           <p className="experienceDesc">
-            Developed the 'Manage Billing' pages/components for homeowner billing specifications
-            i.e. billing cycles and plans, flat rate fees, additional fees and taxes, kilowatt-hour usage
+            Developed the 'Manage Billing' pages/components for homeowner billing specifications -
+            billing cycles and plans, flat rate fees, additional fees and taxes, kilowatt-hour usage
             tiers. Used <code>Redux</code> as global state manager to interact with dynamic input data
             outside the scope of single component heirarchy.
           </p>
