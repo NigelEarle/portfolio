@@ -11,13 +11,13 @@ const BluePlanetWork = () => (
     </div>
     <div className="experience">
       <p className="experienceDesc">
-        The span of this project for Blue Planet energy was a series of front-end portals built, with <code>React.js</code> and <code>Redux</code>.
-        These front-end portals access endpoints on a single, RESTful API built with <code>Node.js</code>, <code>Express.js</code> and <code>Strongloop</code>.
+        The span of this project for Blue Planet Energy was a series of front-end portals built with <code>React.js</code> and <code>Redux</code>.
+        These front-end portals access endpoints from a single, RESTful API built with <code>Node.js</code>, <code>Express.js</code> and <code>Strongloop</code>.
         The breadth of these applications spanned across Blue Planet Energy's customers, sales teams, project 
         owners and current tenants for home and commercial battery monitoring and administrative actions for specific portals.
       </p>
       <br/>
-      <h2 className="contributions">Overview / Contributions:</h2>
+      <h2 className="contributions">Contributions:</h2>
       <br/>
       <ul className="experienceList">
         <li>

@@ -16,7 +16,7 @@ const CulturWork = () => (
         built out to an extent by a previous devlopment team before our back-end team jumped on.
       </p>
       <br/>
-      <h2 className="contributions">Overview / Contributions:</h2>
+      <h2 className="contributions">Contributions:</h2>
       <br/>
       <ul className="experienceList">
         <li>
@@ -39,7 +39,7 @@ const CulturWork = () => (
             of 700,000+ event images to solve failing background workers issue. Our team came up with this horizontal 
             instance solution by scaling microservice workers out to 60+ small instances instead of adding more CPU and 
             RAM to existing workers. The result of this solution ended up costing owners and administrators less with optimal 
-            processing power.
+            processing power and stability.
           </p>
         </li>
       </ul>

@@ -16,7 +16,7 @@ const NestEggWork = () => (
         Payment for this service was on a subscription basis, which was handled using <code>Stripe</code>.
       </p>
       <br/>
-      <h2 className="contributions">Overview / Contributions:</h2>
+      <h2 className="contributions">Contributions:</h2>
       <br/>
       <ul className="experienceList">
         <li>

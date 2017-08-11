@@ -17,7 +17,7 @@ const RevolusunWork = () => (
         a dynamically generated PDF document for the homeowner to view.
       </p>
       <br/>
-      <h2 className="contributions">Overview / Contributions:</h2>
+      <h2 className="contributions">Contributions:</h2>
       <br/>
       <ul className="experienceList">
         <li>
