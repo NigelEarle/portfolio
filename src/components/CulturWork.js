@@ -22,14 +22,9 @@ const CulturWork = () => (
         <li>
           <p className="experienceDesc">
             Built and configured the server infrastructure across several different environments 
-            and micro-service workers under the supervision of my senior engineer.
-          </p>
-        </li>
-        <br/>
-        <li>
-          <p className="experienceDesc">
-           Streamlined deployment to these server instances using tools and services such 
-           as <code>Digital Ocean</code>, <code>Puma</code>, <code>Docker</code> and <code>Ansible</code>.
+            and micro-service workers, under the supervision of my senior engineer, to streamline deployments.
+            Using tools and services such as <code>Digital Ocean</code>, <code>Puma</code>, <code>Docker</code> and <code>Ansible</code> helped
+            our back-end team and remote contractors deploy updates continuously to these environements easily.
           </p>
         </li>
         <br/>

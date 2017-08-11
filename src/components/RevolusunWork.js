@@ -25,8 +25,7 @@ const RevolusunWork = () => (
             Built standalone, Node.js streaming server to generate PDF documents based on 
             dynamic inputs. Used <code>PDFKit</code>, JavaScript library to format and 
             create dynamic PDF's to exact specifications being served at API endpoints. 
-            Particularly lengthy task, which freed up time of in-house developers, given my 
-            contributions.
+            Particularly lengthy task, which freed up time of in-house developers, given my contributions.
           </p>
         </li>
         <br/>
@@ -34,7 +33,7 @@ const RevolusunWork = () => (
           <p className="experienceDesc">
             Developed multiple image upload components using <code>React.js</code> and <code>AWS S3</code>. 
             After upload from the device, image blob would be streamed to <code>Express.js</code> server, formatted and uploaded to S3 bucket and the url 
-            returned would be stored in DB. This approach on storage optimized space in the DB 
+            returned would be stored in DB. This approach on storage optimized space in the <code>PostgreSQL</code> database
             and allowed AWS S3 handle the larger datasets.
           </p>
         </li>
