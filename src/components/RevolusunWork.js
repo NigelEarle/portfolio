@@ -11,24 +11,15 @@ const RevolusunWork = () => (
     </div>
     <div className="experience">
       <p className="experienceDesc">
-        This project was my second subcontract with Sudokrew Solutions and initial introduction to <code>React.js</code> and <code>Redux</code>.
-        At the time, I was nervous being thrown in with a larger application not having experience with the given technologies.
-        Thankfully, the in-house developers taught me everything I needed to know about the application architecture to complete the given
-        tasks.
+        Revolusun's customer estimate web application is a completely internal to it's project managers team. The application organizes
+        and calculates costs based on the work that needs to be done at a residential 
+        home or space. After submission, the application would receive homeowner specifications and deliver 
+        a dynamically generated PDF document for the homeowner to view.
       </p>
       <br/>
       <h2 className="contributions">Overview / Contributions:</h2>
       <br/>
       <ul className="experienceList">
-        <li>
-          <p className="experienceDesc">
-            Completely internal web application to Revolun's project managers team - organizing
-            and calculating costs based on the work that needs to be done at a residential 
-            home or space. After submission, the application would recieve homeowner specifications and deliver 
-            a dynamically generated PDF document for the homeowner to view.
-          </p>
-        </li>
-        <br/>
         <li>
           <p className="experienceDesc">
             Built standalone, Node.js streaming server to generate PDF documents based on 

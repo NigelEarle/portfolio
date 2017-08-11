@@ -11,9 +11,9 @@ const NestEggWork = () => (
     </div>
     <div className="experience">
       <p className="experienceDesc">
-        I was very excited to jump on to this project as a subcontractor for Sudokrew
-        Solutions. They are an amazing JavaScript development house and I knew that I would 
-        learn a lot from their codebase.
+        Nest Egg Guru's web application is a customer facing service to calculate your retirement needs based on earnings and savings.
+        The tech stack for this project is <code>Express.js</code>, <code>Gulp</code>, <code>jQuery</code>, <code>Stormpath</code>, <code>Stripe</code> and <code>PostgreSQL</code>. 
+        Payment for this service was on a subscription basis, which was handled using <code>Stripe</code>.
       </p>
       <br/>
       <h2 className="contributions">Overview / Contributions:</h2>
@@ -21,14 +21,7 @@ const NestEggWork = () => (
       <ul className="experienceList">
         <li>
           <p className="experienceDesc">
-            Customer facing wed application to calculate your retirement needs based on earnings and savings.
-            Payment for this service was on a subscription basis, which was handled using the Stripe API.
-          </p>
-        </li>
-        <br/>
-        <li>
-          <p className="experienceDesc">
-            Built out new feature using the <code>Stripe API</code> coupon feature. Coupons were 
+            Built out new feature using the <code>Stripe</code> coupon feature. Coupons were 
             administered by the business owners or other admin users to new or existing subscriptions.
           </p>
         </li>

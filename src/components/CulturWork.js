@@ -11,9 +11,8 @@ const CulturWork = () => (
     </div>
     <div className="experience">
       <p className="experienceDesc">
-        The Cultur Guru API was my first full-scale project I had the pleasure of working
-        on. The API, written in <code>Ruby on Rails</code>, was responsible
-        for scraping event data across 25+ different sources. The API had already been 
+        The Cultur Guru API, written in <code>Ruby on Rails</code>, was responsible
+        for scraping event data across 25+ different sources using custom web and API scrapers. The API had already been 
         built out to an extent by a previous devlopment team before our back-end team jumped on.
       </p>
       <br/>
@@ -39,7 +38,7 @@ const CulturWork = () => (
             Configured horizontal server and deployment strategy solution for background image processing 
             of 700,000+ event images to solve failing background workers issue. Our team came up with this horizontal 
             instance solution by scaling microservice workers out to 60+ small instances instead of adding more CPU and 
-            RAM to existing workers. This solution ended up costing owners and administrators less with optimal 
+            RAM to existing workers. The result of this solution ended up costing owners and administrators less with optimal 
             processing power.
           </p>
         </li>
