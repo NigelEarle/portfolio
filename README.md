@@ -1,1 +1,0 @@
-# Nigel Earle portfolio
